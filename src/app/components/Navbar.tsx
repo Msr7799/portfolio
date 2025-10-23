@@ -64,12 +64,12 @@ function Navbar({ className }: { className?: string }) {
         {/* Pages Menu */}
         <MenuItem setActive={setActive} active={active} item="Pages">
           <div className="flex flex-col space-y-3 text-sm">
-            <HoveredLink href="/">Home</HoveredLink>
-            <HoveredLink href="/about">About</HoveredLink>
-            <HoveredLink href="/portfolio">Portfolio</HoveredLink>
-            <HoveredLink href="/blog">Blog</HoveredLink>
-            <HoveredLink href="/contact">Contact</HoveredLink>
-            <HoveredLink href="/elements">Elements</HoveredLink>
+            <HoveredLink href="https://collactions.vercel.app">collections website</HoveredLink>
+            <HoveredLink href="https://msr-quran-app.vercel.app/">quran website</HoveredLink>
+            <HoveredLink href="https://msr-portfolio.vercel.app/">Portfolio</HoveredLink>
+            <HoveredLink href="https://github.com/Msr7799/Atlas-AI/tree/main?tab=readme-ov-file#atlas-ai---advanced-ai-assistant">Atlas flutter App</HoveredLink>
+            <HoveredLink href="https://msr-quran-data.vercel.app/">quran Data website API</HoveredLink>
+            <HoveredLink href="mailto:alromaihi2224@gmail.com">Contact</HoveredLink>
           </div>
         </MenuItem>
 
@@ -116,8 +116,8 @@ function Navbar({ className }: { className?: string }) {
         {/* About & Contact */}
         <MenuItem setActive={setActive} active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/about">About Us</HoveredLink>
-            <HoveredLink href="/contact">Contact</HoveredLink>
+            <HoveredLink href="">About me</HoveredLink>
+            <HoveredLink href="mailto:alromaihi2224@gmail.com">Contact</HoveredLink>
             <HoveredLink href="/blog">Blog</HoveredLink>
           </div>
         </MenuItem>

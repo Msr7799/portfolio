@@ -196,7 +196,7 @@ html {
   /* Animated glow */
   .animated-glow {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
   
   .animated-glow::before {
