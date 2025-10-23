@@ -106,8 +106,8 @@ function Navbar({ className }: { className?: string }) {
         {/* Services Menu */}
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/services/photography">Photography</HoveredLink>
-            <HoveredLink href="/services/design">Design</HoveredLink>
+            <HoveredLink href="/v-cloning"> voice cloning & voice changging notebook ipynb </HoveredLink>
+            <HoveredLink href="/chat">Design</HoveredLink>
             <HoveredLink href="/services/web-development">Web Development</HoveredLink>
             <HoveredLink href="/services/branding">Branding</HoveredLink>
           </div>
@@ -116,7 +116,7 @@ function Navbar({ className }: { className?: string }) {
         {/* About & Contact */}
         <MenuItem setActive={setActive} active={active} item="About">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="">About me</HoveredLink>
+            <HoveredLink href="/about">About me</HoveredLink>
             <HoveredLink href="mailto:alromaihi2224@gmail.com">Contact</HoveredLink>
             <HoveredLink href="/blog">Blog</HoveredLink>
           </div>
